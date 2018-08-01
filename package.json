@@ -1,0 +1,13 @@
+{
+  "name": "codex-poc",
+  "version": "1.0.0",
+  "description": "codex-proof of concept",
+  "main": "app.js",
+  "scripts": {
+  },
+  "author": "Austin Gatto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

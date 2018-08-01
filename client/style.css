@@ -1,0 +1,53 @@
+/*BASELINE STYLING*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: #e8e8e8;
+}
+/*PAGE STRUCTURE*/
+header, main{
+    margin: 0 auto 0 auto;
+}
+header{
+    padding: 20px 0 0 0;
+    width: 90%;
+    max-width: 25cm;
+}
+main{
+    width: 80%;
+    max-width: 20cm;
+}
+/*CONTAINER STRUCTURE*/
+.outer{
+    background-color: #ffffff;
+    padding: 1%;
+    box-shadow: 0 2px .5px 0px grey;
+    margin: 0 0 20px 0;
+}
+.inner{
+    background-color: inherit;
+    min-height: 1ch;
+    margin: 0 auto 0 auto;
+    width: 100%
+}
+/*CONTAINER FORMATTING*/
+#search{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#index{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.entry{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}

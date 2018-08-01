@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>codex.#TOPIC#</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="outer" onkeydown="searchEnter(event)">
+            <input id="search" class="inner" type="text" autofocus>
+        </div>
+        <div id="index" class="outer" hidden></div>
+    </header>
+    <main hidden>
+        <div class="outer">
+            <div onblur="entryChange()" class="entry inner" contenteditable="true"></div>
+        </div>
+    </main>
+</body>
+    <script src="script.js"></script>
+</html>
