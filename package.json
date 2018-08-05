@@ -4,6 +4,7 @@
   "description": "codex-proof of concept",
   "main": "app.js",
   "scripts": {
+    start
   },
   "author": "Austin Gatto",
   "license": "ISC",
