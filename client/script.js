@@ -12,7 +12,7 @@ function Topic(title, entries){
 //START
 const title = document.getElementsByTagName('title')[0].innerHTML.replace('codex.','');
 //const baseUrl = 'http://codex.eu-4.evennode.com/'
-const baseUrl = 'http://localhost:8080/'
+const baseUrl = 'https://codex101622926.herokuapp.com/'
 const apiUrl = baseUrl+'api/';
 let topic;
 
